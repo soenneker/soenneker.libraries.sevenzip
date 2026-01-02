@@ -16,7 +16,7 @@
         <AssemblyName>Soenneker.Libraries.SevenZip</AssemblyName>
         <PackageId>Soenneker.Libraries.SevenZip</PackageId>
         <PackageTags>libraries sevenzip 7z 7zip seven zip exe library csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
