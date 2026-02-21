@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -42,7 +42,10 @@
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
-        <Content Include="Resources\7za.exe" Pack="true" PackageCopyToOutput="true"
-                 PackagePath="contentFiles\any\any\Resources\" BuildAction="None"/>
+        <None Include="Resources\**\*.*"
+              Pack="true"
+              PackageCopyToOutput="true"
+              PackagePath="contentFiles/any/any/Resources/%(RecursiveDir)"
+              BuildAction="None"/>
     </ItemGroup>
 </Project>
