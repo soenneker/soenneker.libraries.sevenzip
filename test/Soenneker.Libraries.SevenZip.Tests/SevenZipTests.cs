@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Libraries.SevenZip.Tests;
 
 public sealed class SevenZipTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
